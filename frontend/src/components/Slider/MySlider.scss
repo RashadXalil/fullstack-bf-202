@@ -1,0 +1,26 @@
+.single__slide {
+  display: block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  background-position: center;
+  height: 600px;
+  background-image: url('https://preview.colorlib.com/theme/server/images/hero_bg_2.jpg.webp');
+  h2 {
+    color: white;
+    font-size: 72px;
+  }
+  .btns {
+    display: flex;
+    gap: 30px;
+    button {
+      background-color: #7cbd1e;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+.home__cards {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+  .custom__card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    button {
+      background-color: #7cbd1e;
+      color: white;
+      border: none;
+      padding: 10px;
+    }
+  }
+}
+.parallax {
+  background-image: url('https://preview.colorlib.com/theme/server/images/hero_bg_3.jpg');
+  height: 600px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  color: white;
+  &__content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.653);
+    border: solid;
+    h2 {
+      font-size: 72px;
+    }
+    button {
+      background-color: #7cbd1e;
+      color: white;
+      border: none;
+      padding: 20px;
+    }
+  }
+}
+.choose__us {
+  .title {
+    display: block;
+    margin-bottom: 50px;
+  }
+  padding: 20px;
+  text-align: center;
+  .choose__card {
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: 0.3s linear;
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &:hover {
+      background-color: #7cbd1e;
+      color: white;
+    }
+  }
+}
